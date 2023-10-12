@@ -25,7 +25,24 @@ body {
     John 11:35
 </p>    
 <p>
-
+    Jesus wept. 
+    <br>
+    <span style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">John 11:35</span>
 </p>    
+<p>
+    Jesus wept.
+    <br>
+    <span style="font-size: 2em">John 11:35</span>
+</p>
+<p>
+    Jesus wept.
+    <br>
+    <span style="font-weight: bold">John 11:35</span>
+</p>
+<p>
+    <span style="font: bold Arial, sans-serif">Jesus wept.</span>
+    <br>
+    <span style="font: 50px Georgia, serif">John 11:35</span>  
+</p>
 </body>
 </html>
