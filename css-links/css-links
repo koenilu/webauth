@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS LINKS</title>
+<style>
+one:link {
+  color: red;
+}
+one:visited {
+  color: green;
+}
+one:hover {
+  color: hotpink;
+}
+one:active {
+  color: blue;
+}
+
+two:link {
+    font-family: "Times New Roman", Times, serif;
+}
+two:visited {
+    font-family: Arial, Helvetica, sans-serif;
+}
+two:hover {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+two:active {
+    font-family: Tahoma, sans-serif;
+}
+
+three:link {
+    color: green;
+}
+three:visited {
+    color: hotpink;
+}
+three:hover {
+    font-family: "Times New Roman", Times, serif;
+}
+three:active {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+four:link {
+    color: blue;
+}
+four:visited {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+four:hover {
+    color: purple;
+}
+four:active {
+    font-family: Tahoma, sans-serif;
+}
+
+five:link {
+    font-family: Georgia, serif;
+}
+five:visited {
+    color:yellow;
+}
+five:hover {
+    color:orangered;
+}
+five:active {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+six:link, six:visited {
+  background-color: purple;
+  color: blue;
+  padding: 26px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+<p> 
+    this paragraph has a link to <a href="https://www.youtube.com/@lxks" id="one">my silly youtube channel.</a>
+</p>
+<p>
+    this paragraph has a link to <a href="https://www.youtube.com/@KettleMoraineLutheranHS" id="two">the kettle youtube channel. </a>
+</p>
+<p>
+    this paragraph has a link to <a href="https://youtube.com/playlist?list=PLdRlaUqn4wYOVbXy-z2E2ytFFmnEtuUFL&feature=shared" id="three">Sam and Max: Freelance Police </a>
+</p>
+<p>
+    this paragraph has a link to <a href="https://www.youtube.com/@johnemanuelson915" id="four">John Emmanuelson</a>
+</p>
+<p>
+    this paragraph has a link to <a href="https://www.youtube.com/@TomScottGo" id="five">Tom Scott</a>
+</p>
+<p>
+    link is in a box <a href="https://www.google.com/" id="six">google moment</a>
+</p>
+</body>
+</html>
+
