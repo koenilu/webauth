@@ -3,26 +3,74 @@
 <head>
 <title>css table</title>
 <style>
+table, th, td {
+  border: 20px dotted;
+}
+table {
+  border-collapse: collapse;
+  width: 55%;
+}
 
+th, td {
+  height: 77%;
+}
+
+thead {
+    text-align: center;
+}
+
+td {
+    text-align: right;
+}
+
+th, td {
+  padding: 10px;
+}
+
+thead {
+    background-color: aqua;
+}
+
+caption {
+    background-color: purple;
+}
+
+tbody {
+    background-color: yellow;
+}
+
+tfoot {
+    background-color: orangered;
+}
 </style>
 </head>
 <body>
-    <table>
+    <table><caption> a zillion nickles</caption>
+        <thead>
+            <tr>
+            <th>one</th>
+             <th>two</th>
+             <th>three</th>
+             </tr>
+        </thead>
+        <tbody
         <tr>
-          <th>Person 1</th>
-          <th>Person 2</th>
-          <th>Person 3</th>
+          <td>hello</td>
+          <td>goodbye</td>
+          <td>merci</td>
         </tr>
         <tr>
-          <td>Emil</td>
-          <td>Tobias</td>
-          <td>Linus</td>
-        </tr>
-        <tr>
-          <td>16</td>
-          <td>14</td>
-          <td>10</td>
-        </tr>
+          <td>one billion</td>
+          <td>five million</td>
+          <td>sixty seven thousand</td>
+        </tr>></tbody>
+        <tfoot>
+            <tr>
+                <td>this is so silly</td>
+                <td> i love making tables</td>
+                <td> have a great day</td>
+            </tr>
+        </tfoot>
       </table>
 </body>
 </html>
