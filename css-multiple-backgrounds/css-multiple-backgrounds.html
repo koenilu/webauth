@@ -5,28 +5,17 @@
 <title>CSS MULTIPLE BACKGROUNDS</title>
 <style>
 #fifgy {
-  background-image: url('night.jpg');
-  background-repeat: repeat;
-  background-image: url('download (3).jpg');
-  position:fixed;
+  background-image: url('Pizza-City-hat.png'), url('download (3).jpg'),   url('night.jpg');
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: 100px 220px, 50px 150px,  300px 300px;
+  background-size: 50px 50px, auto,  auto;
   width:500px;
   height:600px;
-  left: 200px;
-  bottom: 10px;
-  background-image: url('Pizza-City-hat.png');
-  position:fixed;
-  width: 50px;
-  height: 20px;
-  left: 450px;
-  bottom: 40px;
-}
+ }
 </style>
 </head>
 <body>
 <div id="fifgy">
-    <img src="night.jpg">
-    <img src="download (3).jpg">
-    <img src="Pizza-City-hat.png">
 </div>
 </body>
 </html>
