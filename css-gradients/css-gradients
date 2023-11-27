@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS GRADIENTS</title>
+<style>
+#div {
+    background-image: linear-gradient(green, blue);
+    background-image: linear-gradient(to right, orange , indigo, violet);
+    background-image: linear-gradient(to bottom left, red, green, indigo, red);
+    background-image: linear-gradient(to top right, green, orange, violet, blue, purple);
+    background-image: repeating-linear-gradient(to right, green, orange 25% );
+    background-image: repeating-linear-gradient(to right, green, orange, green 25%);
+    background-image: radial-gradient(purple, orange, green)
+
+
+</style>
+</head>
+<body>
+<div id="gradient">
+</body>
+</html>
