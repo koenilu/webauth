@@ -10,7 +10,7 @@
     background-image: linear-gradient(to top right, green, orange, violet, blue, purple);
     background-image: repeating-linear-gradient(to right, green, orange 25% );
     background-image: repeating-linear-gradient(to right, green, orange, green 25%);
-    background-image: radial-gradient(purple, orange, green)
+    background-image: radial-gradient(purple, orange, green);
 }
 
 </style>
