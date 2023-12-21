@@ -1,9 +1,13 @@
-#header {
+.header {
     background-color: blue;
     text-align: center;
     padding: 20px;
+    color: white;
   }
-  #column {
+  * {
+    box-sizing: border-box;
+  }
+  .column {
     flex: 50%;
     padding: 10px;
     height: 300px;
@@ -11,7 +15,7 @@
   .row {
     display: flex;
   }
-  #footer {
+  .footer {
     text-align: center;
     padding: 10px;
   }
