@@ -1,3 +1,13 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family: Georgia, serif!important;
+}
+html{
+    position: relative;
+    min-height: 100vh;
+  }
 .header {
     background-color: blue;
     text-align: center;
@@ -18,7 +28,47 @@
   .footer {
     text-align: center;
     padding: 10px;
+    bottom:0;
+    left:50vw;
+    transform: translate(-50%, -50%);
+    position:absolute;
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
   li {
-    display: inline;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .hamburger{
+    white-space:pre;
+  }
+  .cheeseburger img{
+    width: 250px;
+    height: auto;
+  }
+
+  .pickles {
+    display: inline-flex;
+    height:1500px
   }
